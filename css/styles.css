@@ -133,11 +133,11 @@ button:hover
 }
 
 button:hover {
-  background-color: var(brand-color-third);
+  background-color: var(--brand-color-third);
 }
 
 button:active {
-  background-color: var(brand-color-third);
+  background-color: var(--brand-color-third);
 }
 
 /*-------------------benefits-------------------*/
@@ -259,12 +259,12 @@ button:hover {
     }
 
 button:hover {
-  background-color: var(brand-color-third);
+  background-color: var(--brand-color-third);
   color:var(--brand-color-fourth);
 }
 
 button:active {
-  background-color: var(brand-color-third);
+  background-color: var(--brand-color-third);
   color:var(--brand-color-fourth);
 }
 

@@ -1,25 +1,68 @@
-:root {
+/* :root {
   --test-var:tomato;  
+} */
+
+ body {
+    color:#2E2F42;
+    font-family: ;
+    background-color: #ffffff;
+    font-size: ;
+} 
+
+.logo {
+    color:#2E2F42;
+}
+.logotip{
+    color:#4D5AE5;
 }
 
-body {
-    color: ;
-    font-family: ;
-    background-color: #fff;
-    font-size: ;
+.nav-link{
+    color:#2E2F42;
 }
+.nav-link:hover{
+    color:#404BBF;
+}
+
+.contacts a{
+    color: #434455;
+}
+.contacts a:hover{
+    color: #404BBF;
+}
+
+button {
+    color:#ffffff;
+    border-width: 1px;
+    border-style:solid;
+    border-color:currentColor;
+    background-color:#4D5AE5;
+    cursor: pointer;
+    border: none;
+    /* border: 1px solid transparent;   TODO need it? */
+    padding: 16px 32px;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color:#404BBF;
+}
+
+
 
 a {text-decoration: none ;}
 ul {list-style-type: none;}
 
-/* .hero {
-    color: ;
-    font-size: 28px;
+.hero-section {
+    background-color:#2E2F42 ;
+    /* font-size: 28px;
     font-weight: 500;
     line-height: 1.21;
-    letter-spacing: -0.03em;
-} */
+    letter-spacing: -0.03em; */
+} 
 
+.hero-title {
+    color:#ffffff;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;

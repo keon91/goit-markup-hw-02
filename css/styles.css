@@ -1,41 +1,49 @@
-/* :root {
-  --test-var:tomato;  
-} */
+:root {
+  --color-brand:#4D5AE5;
+  --color-brand-second:#ffffff;
+  --color-background-second:#F4F4FD;
+  --color-pressed:#404BBF;  
+  --color-title:#2E2F42;
+  --color-text:#434455;
+  --color-modal:#2E2F42;
+  --color-modal-bgc:#FCFCFC;
+  
+}
 
  body {
-    color:#2E2F42;
-    font-family: ;
-    background-color: #ffffff;
-    font-size: ;
+    color:var(--color-title);
+    font-family:'Roboto', sans-serif; 
+    background-color: var(--color-brand-second);
+    font-size: 16px;
 } 
 
 .logo {
-    color:#2E2F42;
+    color:var(--color-title);
 }
 .logotip{
-    color:#4D5AE5;
+    color:var(--color-brand);
 }
 
 .nav-link{
-    color:#2E2F42;
+    color:var(--color-title);
 }
 .nav-link:hover{
-    color:#404BBF;
+    color:var(--color-pressed);
 }
 
 .contacts a{
-    color: #434455;
+    color: var(--color-text);
 }
 .contacts a:hover{
-    color: #404BBF;
+    color: var(--color-pressed);
 }
 
 button {
-    color:#ffffff;
+    color:var(--color-brand-second);
     border-width: 1px;
     border-style:solid;
     border-color:currentColor;
-    background-color:#4D5AE5;
+    background-color:var(--color-brand);
     cursor: pointer;
     border: none;
     /* border: 1px solid transparent;   TODO need it? */
@@ -44,16 +52,18 @@ button {
 }
 
 button:hover {
-    background-color:#404BBF;
+    background-color:var(--color-pressed);
 }
-
-
 
 a {text-decoration: none ;}
 ul {list-style-type: none;}
 
+.current {
+    color:var(--color-pressed);
+}
+
 .hero-section {
-    background-color:#2E2F42 ;
+    background-color:var(--color-title);
     /* font-size: 28px;
     font-weight: 500;
     line-height: 1.21;
@@ -61,7 +71,7 @@ ul {list-style-type: none;}
 } 
 
 .hero-title {
-    color:#ffffff;
+    color:var(--color-brand-second);
 }
 .visually-hidden {
   position: absolute;

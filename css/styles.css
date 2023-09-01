@@ -14,18 +14,33 @@
     color:var(--color-title);
     font-family:'Roboto', sans-serif; 
     background-color: var(--color-brand-second);
-    font-size: 16px;
+    font-size: 16px; 
+    font-weight: 500;
 } 
+a {
+    text-decoration: none ;
+}
+ul {
+    list-style-type: none;
+}
 
 .logo {
     color:var(--color-title);
+    font-family: 'Raleway' , sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16;  
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
-.logotip{
+.logo-accent{
     color:var(--color-brand);
 }
 
 .nav-link{
     color:var(--color-title);
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
 }
 .nav-link:hover{
     color:var(--color-pressed);
@@ -33,10 +48,15 @@
 
 .contacts a{
     color: var(--color-text);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
 }
 .contacts a:hover{
     color: var(--color-pressed);
 }
+
 
 button {
     color:var(--color-brand-second);
@@ -55,8 +75,6 @@ button:hover {
     background-color:var(--color-pressed);
 }
 
-a {text-decoration: none ;}
-ul {list-style-type: none;}
 
 .current {
     color:var(--color-pressed);

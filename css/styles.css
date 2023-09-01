@@ -23,6 +23,31 @@ a {
 ul {
     list-style-type: none;
 }
+button {
+    font-family: inherit;
+    color:var(--color-brand-second);
+    background-color:var(--color-brand);
+    font-weight: 500;
+    line-height: 0.02; 
+    letter-spacing: 0.04em;
+    border-width: 1px;
+    border-style:solid;
+    border-color:currentColor;
+    cursor: pointer;
+    border: none;
+    /* border: 1px solid transparent;   TODO need it? */
+    padding: 16px 32px;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color:var(--color-pressed);
+}
+
+.current {
+    color:var(--color-pressed);
+}
+/*____________BODY___________________*/
 
 .logo {
     color:var(--color-title);
@@ -56,29 +81,7 @@ ul {
 .contacts a:hover{
     color: var(--color-pressed);
 }
-
-
-button {
-    color:var(--color-brand-second);
-    border-width: 1px;
-    border-style:solid;
-    border-color:currentColor;
-    background-color:var(--color-brand);
-    cursor: pointer;
-    border: none;
-    /* border: 1px solid transparent;   TODO need it? */
-    padding: 16px 32px;
-    border-radius: 4px;
-}
-
-button:hover {
-    background-color:var(--color-pressed);
-}
-
-
-.current {
-    color:var(--color-pressed);
-}
+/* HERO*/
 
 .hero-section {
     background-color:var(--color-title);
@@ -90,6 +93,10 @@ button:hover {
 
 .hero-title {
     color:var(--color-brand-second);
+    font-size: 56px; 
+    font-weight: 700;
+    line-height: 0.02; 
+    letter-spacing: 0.02em;
 }
 .visually-hidden {
   position: absolute;

@@ -47,6 +47,20 @@ button:hover {
 .current {
     color:var(--color-pressed);
 }
+
+.visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+  
+   white-space: nowrap;
+   clip-path: inset(100%);
+   clip: rect(0 0 0 0);
+   overflow: hidden;
+}
 /*____________BODY___________________*/
 
 .logo {
@@ -98,16 +112,75 @@ button:hover {
     line-height: 0.02; 
     letter-spacing: 0.02em;
 }
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+.benefits-subtitle {
+    color: var(--color-title);
+    font-size: 20px;
+    line-height: 1.2; 
+    letter-spacing: 0.02em;
+}
+.benefits-text {
+    color: var(--color-text);
+    font-weight: 500;
+    line-height: 0.02; 
+    letter-spacing: 0.32px;
+}
+
+.team-section{
+    background-color:var(--color-background-second);
+}
+.team-title {
+    color: var(--color-title);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 0.02;
+    letter-spacing: 0.02em;
+    text-transform:capitalize;
+}
+.team-subtitle {
+    color: var(--color-title);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.team-text {
+    color: var(--color-text);
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
+}
+
+/*PORTFOLIO*/
+
+.portfolio-title {
+    color:var(--color-title);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.portfolio-subtitle {
+    color:var(--color-title);
+    font-size: 20px;
+    line-height: 1.2; 
+    letter-spacing: 0.02em;
+}
+.portfolio-text {
+    color:var(--color-text);
+    font-weight: 400;
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
+}
+/*FOOTER*/
+.footer-text{
+    color: var(--color-background-second);
+    font-weight: 400;
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
 }

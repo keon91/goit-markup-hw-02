@@ -112,6 +112,9 @@ address{font-style: normal;}
 .benefits-list {
     background-color:var(--color-background-second);
 }
+.benefits-link {
+    background-color:var(--color-background-second);
+}
 
 .benefits-subtitle {
     color: var(--color-title);

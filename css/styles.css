@@ -1,14 +1,4 @@
 
-html{ box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
-}
-
-
 
 :root {
   --color-brand:#4D5AE5;
@@ -43,14 +33,12 @@ ul {
     font-weight: 500;
     line-height: 0.02; 
     letter-spacing: 0.04em;
-    border-width: 1px;
     border-style:solid;
     border-color:currentColor;
     cursor: pointer;
     border: none;
     /* border: 1px solid transparent;   TODO need it? */
     padding: 16px 32px;
-    border-radius: 4px;
 }
 
 .hero:hover,.hero-button:focus {

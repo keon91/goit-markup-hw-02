@@ -92,14 +92,14 @@ address{font-style: normal;}
     line-height: 1.07; 
     letter-spacing: 0.02em; 
 }
-.button{
+.button {
     font-family: inherit;
     color:var(--color-brand-second);
     background-color:var(--color-brand);
     font-weight: 500;
     line-height: 0.02; 
     letter-spacing: 0.04em;
-
+    font-weight: inherit;
     cursor: pointer;
  
 }

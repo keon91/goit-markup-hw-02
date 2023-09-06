@@ -108,7 +108,7 @@ address{font-style: normal;}
 }
 /* HERO SECTION END 1*/
 /* BENEFIT SECTION START 2*/
-
+.benefits-title{font-weight: inherit;}
 .benefits-subtitle {
     color: var(--color-title);
     font-weight: inherit;
@@ -147,6 +147,8 @@ address{font-style: normal;}
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
+.team-link{
+    color: var(--color-brand-second);}
 
 .team-text {
     color: var(--color-text);

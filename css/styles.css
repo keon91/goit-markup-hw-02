@@ -86,14 +86,13 @@ ul {
     line-height: 1.5; 
     letter-spacing: 0.02em;
 }
-.contacts-item:hover,
-.contacts-item:focus{
-    color: var(--color-pressed);
+.conacts-link:hover, .conacts-link:focus{
+    color:var(--color-pressed);
 }
 
 address{font-style: normal;}
 
-/* HERO*/
+/* HERO SECTION START 1*/
 
 .hero-section {
     background-color:var(--color-title);
@@ -107,6 +106,9 @@ address{font-style: normal;}
     letter-spacing: 0.02em;
     
 }
+/* HERO SECTION END 1*/
+/* BENEFIT SECTION START 2*/
+
 .benefits-subtitle {
     color: var(--color-title);
     font-size: 20px;
@@ -118,25 +120,24 @@ address{font-style: normal;}
     line-height: 1.5;  /*?*/ 
     letter-spacing: 0.02em;
 }
-/*TEAM SECTION START*/
+/* BENEFIT SECTION END 2*/
+/*TEAM SECTION START 3*/
 .team-section{
     background-color:var(--color-background-second);
 }
 .team-title {
     color: var(--color-title);
-    
+     text-align: center;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
     letter-spacing:0.02em;
     text-transform:capitalize;
 }
-.team-list {
+
+.team-link .team-list {
     background-color: var(--color-brand-second);
 }
-.team-link{.team-list {
-    background-color: var(--color-brand-second);
-}}
 .team-subtitle {
     color: var(--color-title);
     font-weight: inherit;
@@ -153,14 +154,14 @@ address{font-style: normal;}
     line-height: 1.5; 
     letter-spacing: 0.02em;
 }
-/*TEAM SECTION END*/
-/*PORTFOLIO START*/
+/*TEAM SECTION 3 END*/
+/*PORTFOLIO START 4*/
 
 .portfolio-title {
     color: var(--color-modal);
-    
+    text-align: center;
     font-size: 36px;
-    font-weight: 500;
+    font-weight: inherit;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;

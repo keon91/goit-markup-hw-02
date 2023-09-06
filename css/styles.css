@@ -36,7 +36,7 @@ a {
 ul {
     list-style-type: none;
 }
-button {
+.hero-button {
     font-family: inherit;
     color:var(--color-brand-second);
     background-color:var(--color-brand);
@@ -53,7 +53,7 @@ button {
     border-radius: 4px;
 }
 
-button:hover {
+.hero-button:hover,.hero-button:focus {
     background-color:var(--color-pressed);
 }
 
@@ -105,7 +105,8 @@ button:hover {
     line-height: 1.5; 
     letter-spacing: 0.02em;
 }
-.contacts a:hover{
+.contacts-item:hover,
+.contacts-item:focus{
     color: var(--color-pressed);
 }
 
@@ -120,9 +121,10 @@ address{font-style: normal;}
 .hero-title {
     color:var(--color-brand-second);
     font-size: 56px; 
-    font-weight: 700;
-    line-height: 0.02; 
+    font-weight: 500;
+    line-height: 1.07; 
     letter-spacing: 0.02em;
+    text-align: center;
 }
 .benefits-subtitle {
     color: var(--color-title);
@@ -132,7 +134,7 @@ address{font-style: normal;}
 }
 .benefits-text {
     color: var(--color-text);
-    line-height: 0.02; 
+    line-height: 1.5;  /*?*/ 
     letter-spacing: 0.02em;
 }
 
@@ -144,8 +146,8 @@ address{font-style: normal;}
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 0.02;
-    letter-spacing: 0.02em;
+    line-height: 1.11;
+    letter-spacing:0.02em;
     text-transform:capitalize;
 }
 .team-subtitle {

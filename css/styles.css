@@ -109,6 +109,10 @@ address{font-style: normal;}
 /* HERO SECTION END 1*/
 /* BENEFIT SECTION START 2*/
 .benefits-title{font-weight: inherit;}
+.benefits-list {
+    background-color:var(--color-background-second);
+}
+
 .benefits-subtitle {
     color: var(--color-title);
     font-weight: inherit;

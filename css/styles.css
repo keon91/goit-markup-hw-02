@@ -38,7 +38,7 @@ ul {
  
 }
 
-.hero:hover,.hero-button:focus {
+.button:hover,.button:focus {
     background-color:var(--color-pressed);
 }
 
@@ -104,11 +104,12 @@ address{font-style: normal;}
     font-weight: inherit;
     line-height: 1.07; 
     letter-spacing: 0.02em;
+    text-align: center;
     
 }
 /* HERO SECTION END 1*/
 /* BENEFITS SECTION START 2*/
-.benefits-section{
+.benefits-link{
     background-color: var(--color-brand-second);
 }
 .benefits-title{font-weight: inherit;}

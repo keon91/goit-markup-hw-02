@@ -96,8 +96,8 @@ address{font-style: normal;}
     font-family: inherit;
     color:var(--color-brand-second);
     background-color:var(--color-brand);
-    font-weight: 500;
-    line-height: 0.02; 
+    font-weight: inherit;
+    line-height: 1.5; 
     letter-spacing: 0.04em;
     font-weight: inherit;
     cursor: pointer;

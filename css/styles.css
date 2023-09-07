@@ -27,21 +27,19 @@ ul {
     list-style-type: none;
 }
 
-
-.current {
-    color:var(--color-pressed);
-}
-
 .visually-hidden {
-   margin: -1px;
-
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
   
-   white-space: nowrap;
-   clip-path: inset(100%);
-   clip: rect(0 0 0 0);
-   overflow: hidden;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
-
 
 .logo {
     color:var(--color-brand);
@@ -88,7 +86,7 @@ address{font-style: normal;}
     color:var(--color-brand-second);
     font-size: 56px;
     text-align: center; 
-    font-weight: inherit;
+    font-weight: 700;
     line-height: 1.07; 
     letter-spacing: 0.02em; 
 }
@@ -121,8 +119,9 @@ address{font-style: normal;}
 }
 .benefits-text {
     color: var(--color-text);
-    line-height: 1.5;  /*?*/ 
+    line-height: 1.5;  
     letter-spacing: 0.02em;
+    font-weight: 400;
 }
 /* BENEFIT SECTION END 2*/
 /*TEAM SECTION START 3*/
@@ -167,7 +166,7 @@ address{font-style: normal;}
     color: var(--color-modal);
     text-align: center;
     font-size: 36px;
-    font-weight: inherit;
+    font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
